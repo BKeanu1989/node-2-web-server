@@ -1,0 +1,17 @@
+{
+  "name": "node-web-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Kevin Fechner <bkevinfechner1989@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.14.0",
+    "hbs": "4.0.0",
+    "nodemon": "^1.11.0"
+  }
+}
