@@ -31,14 +31,14 @@ app.use((req, res, next) => {
 app.use(express.static(__dirname + '/public'));
 
 // OWN: if wrong url
-app.use((req,res, next) => {
-	// console.log(req);
-	console.log(res);
-	if (req.statusCode == null || req.statusCode == undefined) {
-		return res.render('maintenance.hbs');
-	}
-	next();
-});
+// app.use((req,res, next) => {
+// 	// console.log(req);
+// 	console.log(res);
+// 	if (req.statusCode == null || req.statusCode == undefined) {
+// 		return res.render('maintenance.hbs');
+// 	}
+// 	next();
+// });
 
 
 
